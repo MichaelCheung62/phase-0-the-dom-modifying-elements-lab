@@ -1,5 +1,7 @@
-var newHeader = document.createElement('h1');    
+const testVar = 'hi'
 
-document.body.append(newHeader);
 
-h1.textContent = "victory"
+const newHeader = document.createElement("h1")
+newHeader.id = "victory"
+newHeader.innerHTML = "Michael is the champion!"
+newHeader.className = "victory"
